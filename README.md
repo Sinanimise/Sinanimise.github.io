@@ -1,1 +1,1 @@
-# sinainmise.github.io
+# sinanimise.github.io

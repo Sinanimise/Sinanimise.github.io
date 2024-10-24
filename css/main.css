@@ -19,6 +19,7 @@ body {
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -31,31 +32,49 @@ nav ul li a {
     text-decoration: none;
 }
 
-.content {
+.main-content {
     margin: 20px;
-    text-align: center;
+}
+
+.title-with-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-with-image h2,
+.title-with-image p {
+    text-align: left;
+    margin-right: 20px;
+}
+
+.side-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 .games {
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin: 20px;
+    flex-direction: column;
 }
 
 .game {
-    background-color: white;
-    border: 1px solid #ddd;
-    margin: 10px;
-    padding: 10px;
-    width: 45%;
+    display: flex;
+    margin-bottom: 20px;
 }
 
 .game img {
-    max-width: 100%;
-    height: auto;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 20px;
 }
 
 .description {
-    margin-top: 10px;
+    flex-grow: 1;
+}
+
+.description h3 {
+    margin-top: 0;
 }

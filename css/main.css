@@ -57,8 +57,8 @@ nav ul li a {
 }
 
 .game img {
-    width: 1052px;
-    height: 592px;
+    width: 350px;
+    height: 200px;
     object-fit: cover;
     margin-right: 20px;
 }

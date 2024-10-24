@@ -36,25 +36,25 @@ nav ul li a {
     margin: 20px;
 }
 
-.title-with-image {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.title {
+    text-align: left;
 }
 
-.title-with-image h2,
-.title-with-image p {
-    text-align: left;
-    margin-right: 20px;
+.title h2,
+.title p {
+    margin: 0 0 20px 0;
 }
 
 .side-image {
     width: 100px;
     height: 100px;
     object-fit: cover;
+    float: right;
+    margin-left: 20px;
 }
 
 .games {
+    clear: both;
     display: flex;
     flex-direction: column;
 }

@@ -45,16 +45,7 @@ nav ul li a {
     margin: 0 0 20px 0;
 }
 
-.side-image {
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    float: right;
-    margin-left: 20px;
-}
-
 .games {
-    clear: both;
     display: flex;
     flex-direction: column;
 }

@@ -39,7 +39,9 @@ nav ul li a {
     text-align: left;
 }
 
-.title h2,
+.title h2{
+    margin: 0 0 20px 0;
+}
 .title p {
     margin: 0 0 20px 0;
 }

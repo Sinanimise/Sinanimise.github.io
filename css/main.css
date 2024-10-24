@@ -1,9 +1,52 @@
-/* 其他样式保持不变 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
 
 .main-content {
-    /* 修改部分开始 */
-    padding: 0 25%; /* 设置左右页边距为网页宽度的1/4 */
-    /* 修改部分结束 */
+    padding: 0 25%; 
+}
+.title {
+    text-align: left;
+}
+
+.title h2,
+.title p {
+    margin: 0 0 20px 0;
+}
+
+.games {
+    display: flex;
+    flex-direction: column;
 }
 
 .game {
@@ -25,5 +68,3 @@
 .description h3 {
     margin-top: 0;
 }
-
-/* 其他样式保持不变 */
